@@ -25,3 +25,13 @@ Fix most symbols for starship
 ```
 starship preset nerd-font-symbols > ~/.config/starship.toml
 ```
+
+VsCode Link
+```
+https://marketplace.visualstudio.com/items?itemName=monokai.theme-monokai-pro-vscode
+```
+
+Nvim Link
+```
+https://github.com/loctvl842/monokai-pro.nvim
+```
