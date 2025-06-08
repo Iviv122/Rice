@@ -13,7 +13,7 @@ if [ ! -d "$i3DEST" ]; then
   mkdir -p "$i3DEST"
 fi
 
-cp -r "$i3SOURCE/"* "$i3DEST"
+cp -rf "$i3SOURCE/"* "$i3DEST"
 
 i3DEST="$HOME/.config/i3"
 i3SOURCE=".config/i3"
@@ -22,7 +22,7 @@ if [ ! -d "$i3DEST" ]; then
   mkdir -p "$i3DEST"
 fi
 
-cp -r "$i3SOURCE/"* "$i3DEST"
+cp -rf "$i3SOURCE/"* "$i3DEST"
 
 echo "Change default terminal"
 chsh -s /usr/bin/fish
