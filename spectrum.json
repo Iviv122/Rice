@@ -1,0 +1,25 @@
+{
+    "original": {
+        "background": "#222222",
+        "black": "#131313",
+        "blue": "#948AE3",
+        "brightBlack": "#191919",
+        "brightBlue": "#B3A8FF",
+        "brightCyan": "#8DEEFF",
+        "brightGreen": "#AAF1B8",
+        "brightPurple": "#FFA66F",
+        "brightRed": "#FF7BAA",
+        "brightWhite": "#FFFFFF",
+        "brightYellow": "#FFF387",
+        "cursorColor": "#F7F1FF",
+        "cyan": "#5AD4E6",
+        "foreground": "#F7F1FF",
+        "green": "#7BD88F",
+        "name": "Monokai Pro Spectrum Brighter",
+        "purple": "#FD9353",
+        "red": "#FC618D",
+        "selectionBackground": "#F7F1FF",
+        "white": "#FFFFFF",
+        "yellow": "#FCE566"
+    }
+}
