@@ -13,7 +13,7 @@ if [ ! -d "$i3DEST" ]; then
   mkdir -p "$i3DEST"
 fi
 
-cp -rf "$i3SOURCE/"* "$i3DEST"
+cp -rf "$fishDEST/"* "$fishSOURCE"
 
 i3DEST="$HOME/.config/i3"
 i3SOURCE=".config/i3"
