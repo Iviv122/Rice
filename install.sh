@@ -26,7 +26,7 @@ FISH_SOURCE1=".config/fish/fish_variables"
 
 WallpaperSOURCE="./assets/triangle.png"
 WallpaperDIR="~/Pictures/Wallpaper"
-WallpaperDEST="~/Pictures/Wallpaper/triangle.png"
+WallpaperDEST="$WallpaperDIR/triangle.png"
 
 if [ ! -d "$WallpaperDIR" ]; then
   mkdir -p "$WallpaperDIR"
@@ -34,4 +34,4 @@ fi
 
 cp "$WallpaperSOURCE" "$WallpaperDEST"
 
-nitrogen --set-scaled $WallpaperDEST  --save 
+nitrogen --set-scaled "$WallpaperDEST" --save
