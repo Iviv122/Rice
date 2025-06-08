@@ -13,7 +13,7 @@ if [ ! -d "$DEST" ]; then
   mkdir -p "$DEST"
 fi
 
-cp -rf "$DEST/"* "$SOURCE"
+cp -rf "$SOURCE/"* "$DEST"
 
 echo "Change default terminal"
 chsh -s /usr/bin/fish
