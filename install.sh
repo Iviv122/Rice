@@ -24,11 +24,14 @@ FISH_DEST1="$HOME/.config/fish/fish_variables"
 FISH_SOURCE=".config/fish/config.fish"
 FISH_SOURCE1=".config/fish/fish_variables"
 
-mkdir -p "$FISH_DEST"
-mv -f "$FISH_SOURCE" "$FISH_DEST"
-mv -f "$FISH_SOURCE1" "$FISH_DEST1"
+WallpaperSOURCE="./assets/triangle.png"
+WallpaperDEST="$HOME/Pictures/assets/triangle.png"
+WallpaperDIR=$(dirname "$WallpaperDEST")
 
-echo "Setuping shell"
-set -U fish_greeting ""
-starship preset nerd-font-symbols > ~/.config/starship.toml
+if [ ! -d "$WallpaperDIR" ]; then
+  mkdir -p "$WallpaperDIR"
+fi
 
+cp "$WallpaperSOURCE" "$WallpaperDEST"
+
+nitrogen  $WallpaperDEST
