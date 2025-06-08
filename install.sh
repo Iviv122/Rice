@@ -14,12 +14,7 @@ cp -fr "$SOURCE/"* "$DEST"
 
 echo "Change default terminal"
 chsh -s /usr/bin/fish
-fish
 
-FISH_DEST="$HOME/.config/fish/config.fish"
-FISH_DEST1="$HOME/.config/fish/fish_variables"
-FISH_SOURCE=".config/fish/config.fish"
-FISH_SOURCE1=".config/fish/fish_variables"
 
 WallpaperSOURCE="./assets/triangle.png"
 WallpaperDIR="$HOME/Pictures/Wallpaper"
