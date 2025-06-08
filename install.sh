@@ -19,13 +19,13 @@ echo "Change default terminal"
 chsh -s /usr/bin/fish
 fish
 
-FISH_DEST="$HOME/.config/fish/config.fish"
-FISH_DEST1="$HOME/.config/fish/fish_variables"
+FISH_DEST="~/.config/fish/config.fish"
+FISH_DEST1="~/.config/fish/fish_variables"
 FISH_SOURCE=".config/fish/config.fish"
 FISH_SOURCE1=".config/fish/fish_variables"
 
 WallpaperSOURCE="./assets/triangle.png"
-WallpaperDEST="$HOME/Pictures/assets/triangle.png"
+WallpaperDEST="~/Pictures/Wallpaper/triangle.png"
 WallpaperDIR=$(dirname "$WallpaperDEST")
 
 if [ ! -d "$WallpaperDIR" ]; then
@@ -34,4 +34,4 @@ fi
 
 cp "$WallpaperSOURCE" "$WallpaperDEST"
 
-nitrogen --no-recurse $WallpaperDEST
+nitrogen $WallpaperDEST  --set-scaled
