@@ -19,13 +19,13 @@ echo "Change default terminal"
 chsh -s /usr/bin/fish
 fish
 
-FISH_DEST="~/.config/fish/config.fish"
-FISH_DEST1="~/.config/fish/fish_variables"
+FISH_DEST="$HOME/.config/fish/config.fish"
+FISH_DEST1="$HOME/.config/fish/fish_variables"
 FISH_SOURCE=".config/fish/config.fish"
 FISH_SOURCE1=".config/fish/fish_variables"
 
 WallpaperSOURCE="./assets/triangle.png"
-WallpaperDIR="~/Pictures/Wallpaper"
+WallpaperDIR="$HOME/Pictures/Wallpaper"
 WallpaperDEST="$WallpaperDIR/triangle.png"
 
 if [ ! -d "$WallpaperDIR" ]; then
