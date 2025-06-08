@@ -19,6 +19,12 @@ echo "Change default terminal"
 chsh -s /usr/bin/fish
 fish
 
+FISH_DEST="$HOME/.config/fish"
+FISH_SOURCE=".config/fish"
+
+mkdir -p "$FISH_DEST"
+cp -rf "$FISH_SOURCE/"* "$FISH_DEST"
+
 echo "Setuping shell"
 set -U fish_greeting ""
 starship preset nerd-font-symbols > ~/.config/starship.toml
