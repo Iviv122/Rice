@@ -6,6 +6,7 @@ curl -sS https://starship.rs/install.sh | sh
 
 echo "Change default terminal"
 chsh -s /usr/bin/fish
+fish
 
 echo "Setuping shell"
 set -U fish_greeting ""
