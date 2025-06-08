@@ -1,5 +1,7 @@
 echo "Installing packages"
-sudo pacman -S i3-wm polybar ttf-jetbrains-mono-nerd alacritty fish nitrogen picom dmenu
+sudo pacman -S i3-wm polybar ttf-jetbrains-mono-nerd alacritty fish nitrogen picom dmenu yay
+
+yay -S cbonsai-git pipes.sh
 
 echo "Installing starship"
 curl -sS https://starship.rs/install.sh | sh
