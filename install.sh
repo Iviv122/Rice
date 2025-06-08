@@ -34,4 +34,4 @@ fi
 
 cp "$WallpaperSOURCE" "$WallpaperDEST"
 
-nitrogen $WallpaperDEST  --set-scaled
+nitrogen $WallpaperDEST --set-scaled --save 
