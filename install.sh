@@ -19,11 +19,14 @@ echo "Change default terminal"
 chsh -s /usr/bin/fish
 fish
 
-FISH_DEST="$HOME/.config/fish"
-FISH_SOURCE=".config/fish"
+FISH_DEST="$HOME/.config/fish/config.fish"
+FISH_DEST1="$HOME/.config/fish/fish_variables"
+FISH_SOURCE=".config/fish/config.fish"
+FISH_SOURCE1=".config/fish/fish_variables"
 
 mkdir -p "$FISH_DEST"
-mv -fr "$FISH_SOURCE/"* "$FISH_DEST"
+mv -f "$FISH_SOURCE" "$FISH_DEST"
+mv -f "$FISH_SOURCE1" "$FISH_DEST1"
 
 echo "Setuping shell"
 set -U fish_greeting ""
