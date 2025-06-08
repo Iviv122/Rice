@@ -6,23 +6,14 @@ curl -sS https://starship.rs/install.sh | sh
 
 echo "Copying folders"
 
-fishDEST="$HOME/.config/fish"
-fishSOURCE=".config/fish"
+DEST="$HOME/.config"
+SOURCE=".config"
 
-if [ ! -d "$i3DEST" ]; then
-  mkdir -p "$i3DEST"
+if [ ! -d "$DEST" ]; then
+  mkdir -p "$DEST"
 fi
 
-cp -rf "$fishDEST/"* "$fishSOURCE"
-
-i3DEST="$HOME/.config/i3"
-i3SOURCE=".config/i3"
-
-if [ ! -d "$i3DEST" ]; then
-  mkdir -p "$i3DEST"
-fi
-
-cp -rf "$i3SOURCE/"* "$i3DEST"
+cp -rf "$DEST/"* "$SOURCE"
 
 echo "Change default terminal"
 chsh -s /usr/bin/fish
