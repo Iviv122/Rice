@@ -1,14 +1,10 @@
 ## My Arch Linux rice
 
 - Colortheme: Monokai Pro Spectrum (spectrum.json)
-
-
-
-Install fish terminal and setup as default
-```
-sudo pacman -S fish
-chsh -s /usr/bin/fish
-```
+- Terminal: Alacritty
+- WM: i3
+- Bar: polybar 
+- ???: dmenu
 
 Install jetbrains nerdfont
 ```
