@@ -1,9 +1,12 @@
 ## My Arch Linux rice
 
+![preview](https://github.com/Iviv122/Rice/blob/master/assets/screenshot.26.jpg?raw=true)
+
 - Colortheme: Monokai Pro Spectrum (spectrum.json)
 - Terminal: Alacritty
 - WM: i3
-- Bar: polybar 
+- Bar: polybar
+- Shell : fish + spaceship 
 - ???: dmenu
 
 FastInstall
