@@ -34,4 +34,4 @@ fi
 
 cp "$WallpaperSOURCE" "$WallpaperDEST"
 
-nitrogen  $WallpaperDEST
+nitrogen --no-recurse $WallpaperDEST
