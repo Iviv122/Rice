@@ -6,24 +6,12 @@
 - Bar: polybar 
 - ???: dmenu
 
-Install jetbrains nerdfont
+FastInstall
+Be carefull, it replaces files with configs
 ```
-sudo pacman -S ttf-jetbrains-mono-nerd
-```
-
-Turn off greeting message in fish shell
-```
-set -U fish_greeting ""
-```
-
-Install starship
-```
-curl -sS https://starship.rs/install.sh | sh
-```
-
-Fix most symbols for starship
-```
-starship preset nerd-font-symbols > ~/.config/starship.toml
+git clone https://github.com/Iviv122/Rice
+cd Rice
+sh install.sh
 ```
 
 VsCode Link
