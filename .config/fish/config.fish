@@ -4,5 +4,7 @@ if status is-interactive
 
     alias l="ls"
     alias sl="ls"
+    alias vim="nvim"
+    alias vi="nvim"
     alias neofetch="fastfetch"
 end

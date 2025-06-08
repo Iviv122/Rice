@@ -9,10 +9,7 @@ echo "Copying folders"
 DEST="$HOME/.config"
 SOURCE=".config"
 
-if [ ! -d "$DEST" ]; then
-  mkdir -p "$DEST"
-fi
-
+mkdir -p "$DEST"
 cp -fr "$SOURCE/"* "$DEST"
 
 echo "Change default terminal"
@@ -28,10 +25,7 @@ WallpaperSOURCE="./assets/triangle.png"
 WallpaperDIR="$HOME/Pictures/Wallpaper"
 WallpaperDEST="$WallpaperDIR/triangle.png"
 
-if [ ! -d "$WallpaperDIR" ]; then
-  mkdir -p "$WallpaperDIR"
-fi
-
+mkdir -p "$WallpaperDIR"
 cp "$WallpaperSOURCE" "$WallpaperDEST"
 
 nitrogen --no-recurse --set-scaled "$WallpaperDEST" --save
